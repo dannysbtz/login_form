@@ -1,0 +1,169 @@
+
+body{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: 'Istok Web', sans-serif;
+    letter-spacing: .6px;
+}
+
+a{
+    text-decoration: none;
+}
+
+form{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    margin: 0;
+    margin: auto;
+    font-size: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 0px;
+}
+
+.conditions{
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.conditions span{
+    display: block;
+    font-size: 12px;
+    color: gray;
+}
+.conditions strong{
+    display: block;
+    margin-left: 5px;
+    font-size: 12px;
+    color: #4f089b;
+}
+.button{
+    margin: auto;
+    margin-bottom: 20px;
+}
+.button button{
+    display: block;
+    border-radius: 20px;
+    width: 170px;
+    height: 50px;
+    border: none;
+    background: rgb(150,51,254);
+    background: linear-gradient(90deg, rgba(150,51,254,1) 0%, rgba(106,45,171,1) 100%);
+    cursor: pointer;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0px;
+}
+
+.Signin{
+    position: relative;
+    margin: auto;
+    display: flex;
+}
+
+.Signin span{
+    display: block;
+    font-size: 12px;
+    color: gray;
+}
+.Signin strong{
+    display: block;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.background{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: #9633FE; 
+    display: flex;
+    justify-content: center; 
+}
+
+.content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    max-width: 500px;
+    width: 400px;
+    background: white;
+    border-radius: 20px;
+    padding: 50px;
+    box-shadow: 0px 0px 100px 25px #4f089b;
+}
+
+.center{
+    position: relative;
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.background .content .center .input{
+    position: relative;
+    display: flex;
+    padding: 0px 20px;
+    box-shadow: 0px 5px 25px 2px rgba(7, 20, 145, 0.3);
+    border-radius: 20px;
+    align-items: center;
+}
+
+.background .content .center .input i{
+    margin-right: 5px;
+    color: #4f089b;
+}
+
+.background .content .center .input input{
+    border: none;
+    color: gray;
+    height: 30px;
+    outline: none;
+}
+
+
+.background .content .center .input input::placeholder{
+    color: rgba(91, 6, 177,.4);
+}
+
+
+
+/*.conditions input[type="checkbox"] + span:before{
+    content: "";
+	width: 18px;
+	height: 18px;
+	float: left;
+	border: 2px solid #4f089b;
+    border-radius: 5px;
+	background: #fff;
+}
+
+.conditions input[type="checkbox"]:checked + span:before{
+    border-color: #4f089b;
+    border-radius: 5px;
+}
+
+.conditions input[type="checkbox"]:checked + span:after{
+    position: absolute;
+    left: 111px;
+    bottom: 105px;
+    content: "";
+    width: 12px;
+    height: 6px;
+    border: 4px solid #0fbf12;
+    float: left;
+    border-right: 0;
+    border-top: 0;
+    transform: rotate(-55deg);
+}
+*/
